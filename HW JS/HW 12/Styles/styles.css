@@ -314,6 +314,73 @@ p.element {
     margin: 1em;
 }
 
+.slider {
+    margin-bottom: 50px;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.slider-img {
+    text-align: center;
+    line-height: 300px;
+    position: absolute;
+    display: none;
+}
+
+.slider-img.first {
+    display: block;
+}
+
+.slider-img img:first-child{
+    width: 1200px;
+    height: 400px;
+}
+
+.slider-img img:nth-child(3){
+    width: 1200px;
+    height: 400px;
+}
+
+.slider-img img:nth-child(2){
+    width: 1000px;
+    height: 400px;
+}
+
+.butt-prev {
+    position: relative;
+    top: 213px;
+    right: 100px;
+    background-color: #597525;
+    border: none;
+    width: 60px;
+    height: 35px;
+    border-radius: 11px;
+    cursor: pointer;
+    color: #EFF0EA;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.butt-next {
+    position: relative;
+    top: -271px;
+    right: -1240px;
+    background-color: #597525;
+    border: none;
+    width: 60px;
+    height: 35px;
+    border-radius: 11px;
+    cursor: pointer;
+    color: #EFF0EA;
+    font-size: 16px;
+    font-weight: 800;
+}
+
 footer > h2, footer > sub {
     color: white;
     text-align: center;
